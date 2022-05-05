@@ -6,12 +6,13 @@ import {
     HeartIcon,
     PaperAirplaneIcon,
     MenuIcon,
+    HomeIcon,
 } from '@heroicons/react/outline'
 
 const Header = () => {
     return (  
         <div>
-            <div  className="flex justify-between max-w-6xl">
+            <div  className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
 
 
                 {/* Left */}
@@ -43,6 +44,20 @@ const Header = () => {
 
 
                 {/* Right */}
+                <div className="flex items-center justify-end space-x-4">
+                    <HomeIcon className="navBtn" />
+                    <MenuIcon className="h-6 md:hidden" />
+
+                    <div className="relative navBtn">
+                        <PaperAirplaneIcon className="navBtn rotate-45" />
+                        <div className="absolute -top-1 -right-2 text-xs w-5 h-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse text-white">4</div>
+                    </div>
+
+                    <PlusCircleIcon className="navBtn" />
+                    <UserGroupIcon className="navBtn" /> 
+                    <HeartIcon className="navBtn" />
+                    <img src="https://avatars.githubusercontent.com/u/89704608?v=4" alt="profile pic"  className="h-10 rounded-full"/> 
+                </div>
             </div>
 
         </div>
