@@ -8,7 +8,7 @@ const Suggestions = () => {
         const suggestions = [...Array(5)].map((_,i)=>(
             {
                 ...faker.helpers.contextualCard(),
-                id:1
+                id:i
             }
         ))
 
