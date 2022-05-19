@@ -6,7 +6,7 @@ Fully responsive Instagram clone.
 - [Overview](#overview)
   - [The features](#the-features)
   - [Screenshot](#screenshot)
-  - - [Links](#links)
+  - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 
