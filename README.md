@@ -34,8 +34,7 @@ Users are be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Flexbox
-- Grid
+- Flexbox and Grid
 - Mobile-first workflow
 - Next.js
 - NextAuth
